@@ -1,0 +1,44 @@
+:root {
+    --base: #BAD466;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+
+
+img {
+    width: 50%;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.hl {
+    color: var(--base);
+}
+
+/*
+Styles
+*/
+
+body {
+    text-align: center;
+    background: #19493b;
+    color: white;    
+    font-size: 40px;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+h2 {    
+    font-family: 'McLaren', cursive;    
+    font-size: 60px;
+}
+
+.controls {
+  margin-bottom: 50px;
+}
+
+input {
+  width: 100px;
+}
+
